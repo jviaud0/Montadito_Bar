@@ -1,10 +1,11 @@
 import random as rd
 
 class Customer:
-    def __init__(self, id, age, money):
+    def __init__(self, id, age, money, friends):
         self.id = id
         self.age = age
         self.money = money
+        self.friends = friends
         print(f"Customer {self.id} was created. He is {self.age} years old. ")
 
     def order(self):
