@@ -1,16 +1,10 @@
-# This is a sample Python script.
+class bar:
+    def __init__(self, name):
+        self.name = name
+    def welcome(self):
+        print(f"Welcome to {self.name}")
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+shout = bar(name = 'Shout')
+shout.welcome()
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
