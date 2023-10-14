@@ -1,4 +1,4 @@
-class bar:
+class Bar:
     def __init__(self, name):
         self.name = name
     def welcome(self):
@@ -6,7 +6,7 @@ class bar:
 
 
 
-shout = bar(name = 'Shout')
+shout = Bar(name = 'Shout')
 shout.welcome()
 
 
