@@ -4,6 +4,8 @@ class bar:
     def welcome(self):
         print(f"Welcome to {self.name}")
 
+
+
 shout = bar(name = 'Shout')
 shout.welcome()
 
