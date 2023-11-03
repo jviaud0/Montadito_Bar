@@ -1,10 +1,31 @@
-class aircraft:
-    def __init__(self, manufacturer):
-        self.manufacturer = manufacturer
-    def welcome(self):
-        print(f"Welcome to {self.name}")
+
+
+# class Aircraft:
+#     def __init__(self, color, size, manufacturer):
+#         self.color = color
+#         self.size = size
+#         self.manufacturer = manufacturer
+#
+#     def fly(self):
+#         print(f"The {self.size}-sized {self.color} {self.manufacturer} plane took off! ")
+#
+#
+#
+# giannis_plane = Aircraft('Blue', 'Medium', 'Boeing')
+# giannis_plane.fly()
 
 
 
-shout = Bar(name = 'Shout')
-shout.welcome()
+class Student:
+    def __init__(self, id):
+        self.id = id
+        print(f"Student number {self.id} is present")
+
+
+for i in range(10):
+    s = Student(id = i)
+
+
+
+
+
